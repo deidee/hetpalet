@@ -1,6 +1,6 @@
 {
   "name": "@deidee/hetpalet",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Verzameling van merkkleuren van @deidee en opdrachtgevers.",
   "main": "index.js",
   "scripts": {
