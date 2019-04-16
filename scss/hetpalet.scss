@@ -1,10 +1,28 @@
 
-@import "../node_modules/@deidee/dejade/scss/dejade"; // TODO: Consider only fetching variables.
+@import "../node_modules/@deidee/dejade/scss/variables";
+
+$bc-allrgb-red: #f00;
+$bc-allrgb-green: #0f0;
+$bc-allrgb-blue: #00f;
+
+$bc-alexander: #a00ade;
+
+$bc-anbicollectief-blue: #007bc7;
+
+$bc-anonymoussocial-1: #3de;
+$bc-anonymoussocial-2: #d33;
+
+$bc-aworldofspam-red: #db0517;
 
 $bc-dova-bruin: #643510;
 $bc-dova-geel: #ffdd00;
 $bc-dova-groen: #00963a;
 $bc-dova-paars: #520a76;
+
+$bc-fragileminds-red: red;
+$bc-fragileminds-darkred: #870000;
+
+$bc-gridsexy-pink: #f43530;
 
 $bc-hollandschewaaren-blauw: #103f76;
 $bc-hollandschewaaren-oranje: #e56a25;
@@ -21,6 +39,8 @@ $bc-isoboosterspecialist-lichtgeel: #ffeca1;
 $bc-isoboosterspecialist-lichtgroen: #61b772;
 $bc-isoboosterspecialist-lichtrood: #ea4e42;
 $bc-isoboosterspecialist-rood: #e31d1a;
+
+$bc-legendarbtraining-red: #b1272d;
 
 $bc-mimesia-blue: #2269ca;
 $bc-mimesiagallery-cream: #e9e0d2;
@@ -39,6 +59,10 @@ $bc-pxaisobooster-blauw: #1488cc;
 $bc-pxaisobooster-geel: #f5e90d;
 $bc-pxaisobooster-rood: #d21116;
 
+$bc-soemofinearts-red: #900;
+
 $bc-toondenheijer-geel: #fff200;
 
 $bc-werkgroepdenieuwemens-paars: #c495bf;
+
+$bc-zazoo-red: #e92a19;

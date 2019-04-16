@@ -1,6 +1,6 @@
 {
   "name": "@deidee/hetpalet",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Verzameling van merkkleuren van @deidee en opdrachtgevers.",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/deidee/hetpalet#readme",
   "dependencies": {
-    "@deidee/dejade": "^1.1.0",
+    "@deidee/dejade": "^1.2.0"
+  },
+  "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2"
