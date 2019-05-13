@@ -38,6 +38,7 @@ Verzameling van merkkleuren van @deidee en opdrachtgevers.
 
 ## TODO:
 
+- [2600.nl](https://2600.nl/)
 - [Apple Beard Condom](https://applebeardcondom.com/)
 - [Bruno Uno Studio](http://www.brunounostudio.com/)
 - [Fond of Fonts](https://fondoffonts.com/)
