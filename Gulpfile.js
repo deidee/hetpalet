@@ -10,9 +10,9 @@ sass.compiler = require('node-sass');
 
 gulp.task('sass', function () {
     return gulp.src('./scss/**/*.scss')
-        .pipe(sass({outputStyle: 'expanded'}))
+        .pipe(sass({includePaths: ['node_modules'], outputStyle: 'expanded'}))
         .pipe(gulp.dest('./css'))
-        .pipe(sass({outputStyle: 'compressed'}))
+        .pipe(sass({includePaths: ['node_modules'], outputStyle: 'compressed'}))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('./css'));
 });
