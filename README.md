@@ -54,6 +54,12 @@ Verzameling van merkkleuren van @deidee en opdrachtgevers.
 npm i @deidee/hetpalet
 ```
 
+## Updaten
+
+```Shell
+ncu -u
+```
+
 ## Publiceren
 
 Publiceren wordt gedaan door _deIdee_ en wel op de volgende manier:
