@@ -26,6 +26,7 @@ Verzameling van merkkleuren van @deidee en opdrachtgevers.
 - Morère Coffee
 - [Myrthe Deluxe](http://myrthedeluxe.nl/)
 - [Netplasticism](https://netplasticism.com/)
+- [The One-Thousand Drawing Pension Plan](https://onethousanddrawingpensionplan.com/)
 - [Presstige](https://presstige.nl/)
 - [PXA Isobooster](https://pxanederland.nl/)
 - [Sarah de Man](http://sarahdeman.com/)
@@ -43,7 +44,6 @@ Verzameling van merkkleuren van @deidee en opdrachtgevers.
 - [Bruno Uno Studio](http://www.brunounostudio.com/)
 - [Fond of Fonts](https://fondoffonts.com/)
 - [Letteretters](https://letteretters.com/)
-- [The One-Thousand Drawing Pension Plan](https://onethousanddrawingpensionplan.com/)
 - [Prosecco Friday](https://proseccofriday.com/)
 - [Site in a Second](http://www.siteinasecond.nl/)
 - [Watch Me Work](http://watchmework.nl/)
