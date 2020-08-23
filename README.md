@@ -31,6 +31,7 @@ Verzameling van merkkleuren van @deidee en opdrachtgevers.
 - [PXA Isobooster](https://pxanederland.nl/)
 - [Sarah de Man](http://sarahdeman.com/)
 - [Soemo Fine Arts](https://soemo-fine-arts.com/)
+- [The Fashionweek](https://thefashionweek.nl/)
 - [Toon den Heijer](http://www.toondenheijer.nl/)
 - [Uitvaart Vergelijker](http://uitvaart-vergelijker.nl/)
 - UNlimiter
