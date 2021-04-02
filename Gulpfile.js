@@ -4,15 +4,8 @@
 const gulp = require('gulp');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
-const jsonImporter = require('node-sass-json-importer');
 
 sass.compiler = require('node-sass');
-
-gulp.task('render', function () {
-    return gulp.src('./src/test.scss')
-        .pipe(sass({importer: jsonImporter(), includePaths: ['node_modules'], outputStyle: 'expanded'}))
-        .pipe(gulp.dest('./src'));
-});
 
 gulp.task('sass', function () {
     return gulp.src('./scss/**/*.scss')

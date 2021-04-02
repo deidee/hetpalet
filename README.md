@@ -73,10 +73,16 @@ npm i @deidee/hetpalet
 git clone https://github.com/deidee/hetpalet.git
 ```
 
-## Updaten
+## Afhankelijkheden updaten
 
 ```Shell
 ncu -u
+```
+
+## Nieuwe versie genereren
+
+```Shell
+npm start
 ```
 
 ## Publiceren
