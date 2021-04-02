@@ -1,10 +1,9 @@
 
 'use strict';
 
-var gulp = require('gulp');
-var pipeline = require('readable-stream').pipeline;
-var rename = require('gulp-rename');
-var sass = require('gulp-sass');
+const gulp = require('gulp');
+const rename = require('gulp-rename');
+const sass = require('gulp-sass');
 
 sass.compiler = require('node-sass');
 
@@ -20,3 +19,11 @@ gulp.task('sass', function () {
 gulp.task('sass:watch', function () {
     gulp.watch('./scss/**/*.scss', gulp.series('sass'));
 });
+
+gulp.task('test', function () {
+    return gulp.src('./tests/**/*.scss')
+        .pipe(sass({includePaths: ['node_modules'], outputStyle: 'expanded'}))
+        .pipe(gulp.dest('./tests'));
+});
+
+gulp.task('default', gulp.parallel('sass'));

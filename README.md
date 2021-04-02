@@ -1,19 +1,38 @@
 # ![hetpalet](https://deidee.com/logo.png?str=hetPalet)
 
-Verzameling van merkkleuren van @deidee en opdrachtgevers.
+Verzameling van merkkleuren van [deidee](https://deidee.nl/), projecten en opdrachtgevers. Sluit aan op [BrandColors](https://brandcolors.net/).
+
+## Installatie
+
+```Shell
+npm i @deidee/hetpalet
+```
+
+## Gebruik
+
+```SCSS
+@import "@deidee/hetpalet/scss/hetpalet";
+
+.allrgb {
+  background-color: $bc-allrgb-red;
+}
+```
 
 ## Merken
 
+- [2600.nl](https://2600.nl/)
 - [Alexander Christiaan Jacob](https://alexanderchristiaanjacob.com/)
 - [allRGB](https://allrgb.com/)
 - [Alternative Art Guide](https://alternativeartguide.com/)
 - [ANBI collectief](http://www.anbi-collectief.nl/aanmelden)
 - [Anonymous.Social](https://anonymous.social/)
+- [Apple Beard Condom](https://applebeardcondom.com/)
 - [A World of Spam](https://aworldofspam.com/)
 - [Bestemming Onbekend](http://www.bestemming-onbekend.nl/)
-- [Budget Masks](http://ohlalapartywear.com/)
+- [Bruno Uno Studio](http://www.brunounostudio.com/)
 - [deIdee](https://deidee.nl/), _et al_.
 - [DOVA](https://www.dova.nu/)
+- [Fond of Fonts](https://fondoffonts.com/)
 - [Fragile Minds](https://fragile-minds.com/)
 - [Galerie Helder](http://galeriehelder.nl/)
 - [Gillende Keukenprins](http://gillendekeukenprins.nl/)
@@ -26,10 +45,15 @@ Verzameling van merkkleuren van @deidee en opdrachtgevers.
 - Morère Coffee
 - [Myrthe Deluxe](http://myrthedeluxe.nl/)
 - [Netplasticism](https://netplasticism.com/)
+- [Nikola Mikael Ruben Benjamin](https://nikolamikaelrubenbenjamin.com/)
+- [Nine Mia Jade Yasmine](https://ninemiajadeyasmine.com/)
 - [The One-Thousand Drawing Pension Plan](https://onethousanddrawingpensionplan.com/)
+- [Orange IT](http://www.orangeit.nl/)
 - [Presstige](https://presstige.nl/)
+- [Prosecco Friday](https://proseccofriday.com/)
 - [PXA Isobooster](https://pxanederland.nl/)
 - [Sarah de Man](http://sarahdeman.com/)
+- [Site in a Second](http://www.siteinasecond.nl/)
 - [Soemo Fine Arts](https://soemo-fine-arts.com/)
 - [The Fashionweek](https://thefashionweek.nl/)
 - [Toon den Heijer](http://www.toondenheijer.nl/)
@@ -40,19 +64,13 @@ Verzameling van merkkleuren van @deidee en opdrachtgevers.
 
 ## TODO:
 
-- [2600.nl](https://2600.nl/)
-- [Apple Beard Condom](https://applebeardcondom.com/)
-- [Bruno Uno Studio](http://www.brunounostudio.com/)
-- [Fond of Fonts](https://fondoffonts.com/)
 - [Letteretters](https://letteretters.com/)
-- [Prosecco Friday](https://proseccofriday.com/)
-- [Site in a Second](http://www.siteinasecond.nl/)
 - [Watch Me Work](http://watchmework.nl/)
 
-## Installeren
+## Uitbreiden
 
 ```Shell
-npm i @deidee/hetpalet
+git clone https://github.com/deidee/hetpalet.git
 ```
 
 ## Updaten
@@ -63,7 +81,7 @@ ncu -u
 
 ## Publiceren
 
-Publiceren wordt gedaan door _deIdee_ en wel op de volgende manier:
+Publiceren wordt gedaan door [deidee](https://deidee.nl/) en wel op de volgende manier:
 
 ```Shell
 npm publish --access public
