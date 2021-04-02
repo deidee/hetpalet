@@ -1,0 +1,15 @@
+{
+    "name": "deidee/hetpalet",
+    "description": "Verzameling van merkkleuren van deidee, projecten en opdrachtgevers.",
+    "type": "library",
+    "require": {
+        "php": "^7.4"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "ACJ",
+            "email": "gitlab@acjs.net"
+        }
+    ]
+}
