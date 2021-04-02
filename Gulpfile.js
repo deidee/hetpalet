@@ -4,8 +4,15 @@
 const gulp = require('gulp');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
+const jsonImporter = require('node-sass-json-importer');
 
 sass.compiler = require('node-sass');
+
+gulp.task('render', function () {
+    return gulp.src('./src/test.scss')
+        .pipe(sass({importer: jsonImporter(), includePaths: ['node_modules'], outputStyle: 'expanded'}))
+        .pipe(gulp.dest('./src'));
+});
 
 gulp.task('sass', function () {
     return gulp.src('./scss/**/*.scss')
@@ -18,12 +25,6 @@ gulp.task('sass', function () {
 
 gulp.task('sass:watch', function () {
     gulp.watch('./scss/**/*.scss', gulp.series('sass'));
-});
-
-gulp.task('test', function () {
-    return gulp.src('./tests/**/*.scss')
-        .pipe(sass({includePaths: ['node_modules'], outputStyle: 'expanded'}))
-        .pipe(gulp.dest('./tests'));
 });
 
 gulp.task('default', gulp.parallel('sass'));
