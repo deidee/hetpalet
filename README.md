@@ -1,4 +1,4 @@
-# ![hetpalet](https://deidee.com/logo.png?str=hetPalet)
+# ![hetpalet](https://deidee.com/logo.png?str=hetpalet)
 
 Verzameling van merkkleuren van [deidee](https://deidee.nl/), projecten en opdrachtgevers. Sluit aan op [BrandColors](https://brandcolors.net/).
 
