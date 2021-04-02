@@ -64,8 +64,58 @@ npm i @deidee/hetpalet
 
 ## TODO:
 
+### Merken toevoegen
+
 - [Letteretters](https://letteretters.com/)
 - [Watch Me Work](http://watchmework.nl/)
+
+### Functionaliteit toevoegen
+
+Kleuren kunnen definiëren in YAML?
+
+#### Suggestie invoer
+
+```YAML
+allrgb:
+  red
+  lime
+  blue
+deidee:
+  deJade()
+  deJade()
+```
+
+#### Suggestie export SCSS
+
+```SCSS
+$bc-allrgb-1: red;
+$bc-allrgb-2: lime;
+$bc-allrgb-3: blue;
+$bc-deidee-1: deJade();
+$bc-deidee-2: deJade();
+```
+
+#### Suggestie export CSS
+
+```CSS
+.bg-allrgb-1 { background-color: red; }
+.color-allrgb-1 { color: red; }
+.bg-allrgb-2 { background-color: lime; }
+.color-allrgb-2 { color: lime; }
+.bg-allrgb-3 { background-color: blue; }
+.color-allrgb-3 { color: blue; }
+.bg-deidee-1 { background-color: #0f8c76; }
+.color-deidee-1 { color: #0f8c76; }
+.bg-deidee-2 { background-color: #5ccfb8; }
+.color-deidee-2 { color: #5ccfb8; }
+```
+
+#### Andere exportmogelijkheden
+
+* JSON
+* PHP array
+* LESS
+* ASE (_Adobe Swatch Exchange_)
 
 ## Uitbreiden
 
