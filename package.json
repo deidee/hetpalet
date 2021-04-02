@@ -4,7 +4,7 @@
   "description": "Verzameling van merkkleuren van @deidee en opdrachtgevers.",
   "main": "index.js",
   "scripts": {
-    "start": "json-to-scss src/hetpalet.json --fk --p='$bc-'"
+    "start": "json-to-scss src/hetpalet.json dist/hetpalet.scss --fk --p='$bc-'"
   },
   "repository": {
     "type": "git",
