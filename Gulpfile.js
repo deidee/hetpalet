@@ -3,9 +3,7 @@
 
 const gulp = require('gulp');
 const rename = require('gulp-rename');
-const sass = require('gulp-sass');
-
-sass.compiler = require('node-sass');
+let sass = require('gulp-sass')(require('sass'));
 
 gulp.task('sass', function () {
     return gulp.src('./scss/**/*.scss')
