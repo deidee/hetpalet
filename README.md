@@ -135,6 +135,13 @@ ncu -u
 npm start
 ```
 
+## Update packages to latest versions.
+
+```Shell
+npx npm-check-updates -u
+npm i
+```
+
 ## Publiceren
 
 Publiceren wordt gedaan door [deidee](https://deidee.nl/) en wel op de volgende manier:
