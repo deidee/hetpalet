@@ -7,6 +7,7 @@
   "alexander-1": "#a00ade",
   "alternativeartguide-1": "#0000ff",
   "alternativeartguide-2": "#ffcccc",
+  "ammerlaanopleidingen": "#a02d96",
   "anbicollectief-1": "#007bc7",
   "anonymoussocial-1": "#3de",
   "anonymoussocial-2": "#d33",
@@ -28,10 +29,13 @@
   "deidee-8": "deJade()",
   "deidee-9": "deJade()",
   "deidee-10": "deJade()",
+  "dianavangelder": "#6F8BC7",
   "dova-bruin": "#643510",
   "dova-geel": "#ffdd00",
   "dova-groen": "#00963a",
   "dova-paars": "#520a76",
+  "dutchcleaningservice-blue": "#00638f",
+  "dutchcleaningservice-yellow": "#ffd100",
   "fondoffonts-1": "#a00",
   "fondoffonts-2": "#eee",
   "fragileminds-red": "red",
@@ -95,7 +99,5 @@
   "uitvaartvergelijker-purple": "#a40243",
   "unlimiter-pink": "#f597a5",
   "werkgroepdenieuwemens-paars": "#c495bf",
-  "zazoo-red": "#e92a19",
-  "dianavangelder": "#6F8BC7",
-  "ammerlaanopleidingen": "#a02d96"
+  "zazoo-red": "#e92a19"
 }
