@@ -1,0 +1,16 @@
+<svg viewBox="0 0 {{ swatch.columns * swatch.size }} {{ swatch.columns * swatch.size }}" xmlns="http://www.w3.org/2000/svg">
+{%- set x, y = 0 -%}
+{%- for key, value in hetpalet -%}
+{%- if '()' in value -%}
+<rect fill="{{ deJade() }}" x="{{ x }}" y="{{ y }}" height="{{ swatch.size }}" width="{{ swatch.size }}"></rect>
+{%- else -%}
+<rect fill="{{ value }}" x="{{ x }}" y="{{ y }}" height="{{ swatch.size }}" width="{{ swatch.size }}"></rect>
+{%- endif -%}
+{%- if x == swatch.columns * swatch.size -%}
+{%- set x = 0 -%}
+{%- set y = y + swatch.size -%}
+{%- else -%}
+{%- set x = x + swatch.size -%}
+{%- endif -%}
+{% endfor %}
+</svg>
