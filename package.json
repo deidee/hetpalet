@@ -1,10 +1,10 @@
 {
   "name": "@deidee/hetpalet",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Verzameling van merkkleuren van @deidee en opdrachtgevers.",
-  "main": "index.js",
+  "main": ".eleventy.js",
   "scripts": {
-    "start": "json-to-scss src/hetpalet.json dist/hetpalet.scss --fk --p='$bc-'"
+    "start": "json-to-scss src/_data/hetpalet.json dist/hetpalet.scss --fk --p='$bc-'"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "@deidee/dejade": "^2.0.0"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
     "gulp": "^4.0.2",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
